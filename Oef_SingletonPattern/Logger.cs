@@ -5,7 +5,7 @@ namespace Oef_SingletonPattern
 {
     public sealed class Logger
     {
-        private static readonly Logger logger = new Logger(); //Deze versie is WEL ( Multi-)thread safe
+        private static readonly Logger logger = new Logger(); //Deze versie is ( Multi-)thread safe
         //private static Logger logger = null; //deze is niet thread-safe!!
         public static Logger Instance
         {
